@@ -1,4 +1,4 @@
-# TFM — Predicción de Resultados de Ensayos Clínicos mediante Machine Learning
+# TFM - Predicción de Resultados de Ensayos Clínicos mediante Machine Learning
 **Autor:** Miquel Ribas  
 **Máster Universitario en Ciencia de Datos (UOC)**  
 **Versión del proyecto:** 2025  
@@ -97,16 +97,16 @@ data/raw/clinicaltrials_raw_YYYYMMDD_HHMMSS.csv
 
 ---
 
-## 🧱 Flujo de trabajo (notebooks)
+## Flujo de trabajo (notebooks)
 
-### **00 — Data Download & Raw Data Check**
+### **00 - Data Download & Raw Data Check**
 
 * Ejecuta descarga desde API.
 * Se analiza una muestra del archivo RAW.
 * Se escogen que columnas usar y se descarga el dataset completo.
 * Guarda un dataset *clean*.
 
-### **01 — EDA (Exploratory Data Analysis)**
+### **01 - EDA (Exploratory Data Analysis)**
 
 * Vista general del dataset.
 * Análisis de valores faltantes.
@@ -126,7 +126,7 @@ Todos los experimentos pueden reproducirse ejecutando los notebooks en orden del
 
 ---
 
-## 📑 Licencia y uso
+## Licencia y uso
 
 Los datos utilizados provienen de **ClinicalTrials.gov**, que permite su uso público con fines académicos.
 
@@ -134,7 +134,7 @@ El código es completamente libre para uso educativo y académico.
 
 ---
 
-## 🙋 Contacto
+## Contacto
 
 Para cualquier duda sobre este trabajo:
 
