@@ -54,7 +54,7 @@ def extraer_ensayos(max_studies = 20000, page_size = 1000, columnas=None):
     """
 
     params = {"format": "json", "pageSize": min(page_size,1000), "countTotal": "true",
-              "filter.advanced": "AREA[StudyType]Interventional AND AREA[StartDate]RANGE[2015-01-01, MAX]",
+              "filter.advanced": "AREA[StudyType]Interventional AND AREA[StartDate]RANGE[2000-01-01, MAX] AND AREA[LastUpdatePostDate]RANGE[2000-01-01, 2025-12-01] AND               (AREA[Phase]EARLY_PHASE1 OR AREA[Phase]PHASE1 OR AREA[Phase]PHASE2 OR AREA[Phase]PHASE3 OR AREA[Phase]PHASE4)",
              }
     if columnas:
         params["fields"] = "|".join(columnas)
