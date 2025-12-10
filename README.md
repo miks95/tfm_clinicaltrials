@@ -33,6 +33,7 @@ tfm_clinicaltrials/
 ├── notebooks/
 │   ├── 00_data_download_check.ipynb
 │   ├── 01_eda_clinicaltrials.ipynb
+│   ├── 02_preprocessing_feature_engineering.ipynb
 │
 ├── src/
 │   ├── __init__.py
@@ -112,6 +113,12 @@ data/raw/clinicaltrials_raw_YYYYMMDD_HHMMSS.csv
 * Análisis de valores faltantes.
 * Distribuciones clave (fases, condiciones, estados, fechas).
 
+### **02 - Preprocesamiento + Feature Engineering**
+
+* Limpieza avanzada.
+* Codificación categórica.
+* Construcción de nuevas características relevantes.
+* Generación del dataset final de modelado.
 ---
 
 ## Reproducibilidad
@@ -138,7 +145,7 @@ El código es completamente libre para uso educativo y académico.
 
 Para cualquier duda sobre este trabajo:
 
-**Autor:** Miquel Ribas
+**Autor:** Miquel Ribas Portella (mribaspo@uoc.edu)
 **Universitat Oberta de Catalunya (UOC)**
 
 ```
