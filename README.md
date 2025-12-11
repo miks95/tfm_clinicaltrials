@@ -34,6 +34,9 @@ tfm_clinicaltrials/
 │   ├── 00_data_download_check.ipynb
 │   ├── 01_eda_clinicaltrials.ipynb
 │   ├── 02_preprocessing_feature_engineering.ipynb
+│   ├── 03_modeling_baseline.ipynb
+│   ├── 04_modeling_advanced.ipynb
+
 │
 ├── src/
 │   ├── __init__.py
@@ -121,6 +124,22 @@ data/raw/clinicaltrials_raw_YYYYMMDD_HHMMSS.csv
 * Generación del dataset final de modelado.
 ---
 
+### **03 - Baseline Modeling**
+
+* Modelos simples:
+
+  * Regresión logística
+  * Decision Tree
+* Métricas principales: AUC, F1, precisión y recall.
+* Benchmark inicial.
+
+### **04 - Advanced Modeling**
+
+* RandomForest
+* Gradient Boosting
+* XGBoost
+* Hyperparameter tuning con GridSearch/RandomSearch.
+* 
 ## Reproducibilidad
 
 Este repositorio contiene:
