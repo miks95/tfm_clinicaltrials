@@ -14,8 +14,10 @@ El proyecto implementa un pipeline reproducible de ciencia de datos que cubre:
 
 - Descarga automatizada de datos desde la API oficial.
 - Preprocesamiento y tratamiento de valores faltantes.
+- Ingeniería de características relevantes para ensayos clínicos.
 - Entrenamiento de modelos base y avanzados (RandomForest, XGBoost, etc.).
 - Evaluación rigurosa con métricas apropiadas para datos desbalanceados.
+- Interpretabilidad mediante SHAP.
 - Recursos para reproducir todos los experimentos.
 
 ---
@@ -36,7 +38,7 @@ tfm_clinicaltrials/
 │   ├── 02_preprocessing_feature_engineering.ipynb
 │   ├── 03_modeling_baseline.ipynb
 │   ├── 04_modeling_advanced.ipynb
-
+│   └── 05_evaluation_and_interpretability.ipynb
 │
 ├── src/
 │   ├── __init__.py
@@ -122,7 +124,6 @@ data/raw/clinicaltrials_raw_YYYYMMDD_HHMMSS.csv
 * Codificación categórica.
 * Construcción de nuevas características relevantes.
 * Generación del dataset final de modelado.
----
 
 ### **03 - Baseline Modeling**
 
@@ -139,7 +140,17 @@ data/raw/clinicaltrials_raw_YYYYMMDD_HHMMSS.csv
 * Gradient Boosting
 * XGBoost
 * Hyperparameter tuning con GridSearch/RandomSearch.
-* 
+
+### **05 - Interpretabilidad + Evaluación Final**
+
+* SHAP values (global y local)
+* Feature importance
+* Matriz de confusión
+* Análisis crítico de resultados
+* Exportación de modelos y gráficos
+
+---
+
 ## Reproducibilidad
 
 Este repositorio contiene:
